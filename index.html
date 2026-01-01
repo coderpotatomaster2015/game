@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>HTML5 Game Hub</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>HTML5 Game Hub</h1>
+    <p>Select a game mode to start.</p>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <button class="game-btn" data-game="voxel">Voxel.js Demo</button>
+    </aside>
+
+    <section class="player-area">
+      <div class="player-header">
+        <span id="game-title">No game running</span>
+      </div>
+      <div class="player-canvas-wrapper">
+        <canvas id="game-canvas"></canvas>
+      </div>
+    </section>
+  </main>
+
+  <!-- Load Voxel.js engine from the official repo -->
